@@ -1,0 +1,57 @@
+.intro {
+    color: black;
+    font-family: 'Gagalin', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.button {
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    font-family: 'Gagalin', sans-serif;
+    color: white;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottommenu-container {
+    position: fixed;
+    top: 50%;                  
+    left: 10px;               
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;                
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+        color: white;
+}
+
+a:hover{
+    color: white;
+  }
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}

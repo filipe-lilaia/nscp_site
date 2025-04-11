@@ -1,0 +1,47 @@
+
+body {
+    background-color: black;
+}
+
+.intro {
+    color: white;
+    font-family: 'Gagalin', sans-serif;
+    font-size:medium;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Gagalin', sans-serif;
+    font-size:larger;
+    text-align: center;
+}
+
+.button {
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Gagalin', sans-serif;
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+        color: white;
+}
+
+a:hover{
+    color: white;
+  }
+
+
